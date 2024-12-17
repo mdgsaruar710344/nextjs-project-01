@@ -1,10 +1,10 @@
 import React from 'react';
 
-function page(props) {
+function PhotoInterceptor(props) {
   return (
     <div>
       Hello interceptor!
     </div>
   );
 }
-export default page;
+export default PhotoInterceptor;
