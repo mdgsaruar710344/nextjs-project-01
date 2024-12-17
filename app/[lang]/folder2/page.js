@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Folder2() {
-  console.log('not intercepted')
+  // console.log('not intercepted')
 
   return (
     <div>

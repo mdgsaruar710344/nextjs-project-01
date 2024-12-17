@@ -18,8 +18,8 @@ return localelanguage;
 
 export function middleware(request,{params}){
   const pathname= request.nextUrl.pathname;
-  console.log(pathname);
-  console.log(request.headers.get('accept-language'));
+  // console.log(pathname);
+  // console.log(request.headers.get('accept-language'));
 
 
   const localeIsPresent= locales.some(locale=> pathname.startsWith(`/${locale}/`)|| pathname===`/${locale}`);

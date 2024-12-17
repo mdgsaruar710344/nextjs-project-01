@@ -2,7 +2,7 @@ import React from 'react';
 
 function Interceptor() {
 
-  console.log('intercepted')
+  // console.log('intercepted')
   return (
     <div>
       intercepted
